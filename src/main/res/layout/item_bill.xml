@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/text_bill_item_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Tên hàng"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/text_bill_item_quantity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="SL"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/text_bill_item_price"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Đơn giá"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/text_bill_item_paysum"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="Thành Tiền"
+            android:textAlignment="viewEnd"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <!--<TextView-->
+        <!--android:background="@color/button_border"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp" />-->
+</LinearLayout>

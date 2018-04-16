@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <bitmap android:src="@drawable/ic_plus_selected" />
+        <shape>
+            <corners android:radius="200dp" />
+            <size android:width="50dp" android:height="50dp" />
+            <padding android:bottom="8dp" android:left="8dp" android:right="8dp" android:top="8dp" />
+        </shape>
+    </item>
+    <item android:state_enabled="true">
+        <bitmap android:src="@drawable/ic_plus" />
+        <shape>
+            <corners android:radius="200dp" />
+            <size android:width="50dp" android:height="50dp" />
+            <padding android:bottom="8dp" android:left="8dp" android:right="8dp" android:top="8dp" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/dialog_edt"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_height="0dp"
+        android:layout_gravity="end"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/edittext_border"
+        android:inputType="number"
+        android:padding="8dp"
+        android:text="@string/default_number"
+        android:textAlignment="viewEnd"
+        tools:ignore="LabelFor" />
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:id="@+id/dialog_clear_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:text="@string/clear_all"
+            tools:ignore="ButtonStyle,NestedWeights" />
+
+        <Button
+            android:id="@+id/dialog_decrease_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:text="@string/decrease_value"
+            tools:ignore="NestedWeights" />
+
+        <Button
+            android:id="@+id/dialog_increase_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:text="@string/increase_value"
+            tools:ignore="NestedWeights" />
+
+        <ImageButton
+            android:id="@+id/dialog_delete_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:src="@drawable/ic_back_keyboard"
+            tools:ignore="NestedWeights" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:id="@+id/dialog_7_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:text="@string/number_7"
+            android:textSize="20sp"
+            tools:ignore="ButtonStyle,NestedWeights" />
+
+        <Button
+            android:id="@+id/dialog_8_btn"
+            android:text="@string/number_8"
+            android:textSize="20sp"
+            android:background="@drawable/button_selector"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            tools:ignore="ButtonStyle,NestedWeights" />
+
+        <Button
+            android:id="@+id/dialog_9_btn"
+            android:text="@string/number_9"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_selector"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            tools:ignore="ButtonStyle,NestedWeights" />
+
+        <Button
+            android:id="@+id/dialog_minus_btn"
+            android:text="@string/minus_sign"
+            android:textSize="20sp"
+            android:background="@drawable/button_selector"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            tools:ignore="ButtonStyle,NestedWeights" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:text="@string/number_4"
+            android:id="@+id/dialog_4_btn"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_selector"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            tools:ignore="ButtonStyle,NestedWeights" />
+
+        <Button
+            android:id="@+id/dialog_5_btn"
+            android:text="@string/number_5"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_selector"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            tools:ignore="ButtonStyle,NestedWeights" />
+
+        <Button
+            android:id="@+id/dialog_6_btn"
+            android:text="@string/number_6"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_selector"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            tools:ignore="ButtonStyle,NestedWeights" />
+
+        <Button
+            android:id="@+id/dialog_plus_btn"
+            android:text="@string/plus_sign"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_selector"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            tools:ignore="ButtonStyle,NestedWeights" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <Button
+            android:id="@+id/dialog_1_btn"
+            android:text="@string/number_1"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_selector"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            tools:ignore="ButtonStyle,NestedWeights" />
+
+        <Button
+            android:id="@+id/dialog_2_btn"
+            android:text="@string/number_2"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_selector"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            tools:ignore="ButtonStyle,NestedWeights" />
+
+        <Button
+            android:id="@+id/dialog_3_btn"
+            android:text="@string/number_3"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_selector"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            tools:ignore="ButtonStyle,NestedWeights" />
+
+        <Button
+            android:id="@+id/dialog_minus_plus_btn"
+            android:text="@string/minus_plus_sign"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_selector"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            tools:ignore="ButtonStyle,NestedWeights" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:id="@+id/dialog_0_btn"
+            android:text="@string/number_0"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_selector"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            tools:ignore="ButtonStyle,NestedWeights" />
+
+        <Button
+            android:id="@+id/dialog_000_btn"
+            android:text="@string/number_000"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_selector"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            tools:ignore="ButtonStyle,NestedWeights" />
+
+        <Button
+            android:id="@+id/dialog_comma_btn"
+            android:text="@string/comma_sign"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_selector"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            tools:ignore="ButtonStyle,NestedWeights" />
+
+        <Button
+            android:id="@+id/dialog_done_btn"
+            android:textColor="#ffffff"
+            android:text="@string/done"
+            android:layout_gravity="center"
+            android:background="@drawable/button_done_selector"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            tools:ignore="ButtonStyle,NestedWeights" />
+    </LinearLayout>
+</LinearLayout>
